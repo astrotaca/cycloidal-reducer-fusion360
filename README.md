@@ -1,5 +1,7 @@
 # Cycloidal Dual-Disc Sketch Generator (Fusion 360)
 
+![Dual-disc cycloidal reducer](preview.png)
+
 Small Fusion 360 script for generating cycloidal reducer sketches.
 
 The main goal was to properly support **dual-disc cycloidal drives** with correct phasing and identical output hole positions.  
@@ -13,5 +15,6 @@ It generates:
 
 Works for higher ratios as well (20:1+), though high settings can be heavy on slower PCs.  
 This is mainly due to dense curve sampling and adaptive subdivision used to keep the cycloidal profile stable and printable.
+
 
 This is a practical tool, not a polished product. Feel free to give feedback or tweak it to your needs.
